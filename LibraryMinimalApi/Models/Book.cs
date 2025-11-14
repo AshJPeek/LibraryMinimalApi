@@ -10,5 +10,7 @@ public class Book
     
     public string ShortDescription { get; set; } = default!;
     
+    public int PageCount { get; set; }
+    
     public DateTime ReleaseDate { get; set; } = default!;
 }
